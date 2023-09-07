@@ -9,7 +9,7 @@ body{
 .navbar{
     background-color: black;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 80px;
     box-shadow: 0 2px 10px white;
 }
@@ -23,7 +23,6 @@ nav ul{
     display: flex;
     float: right;
     margin-top: 10px;
-    margin-right:20px;
 }
 nav ul li{
     list-style: none;
@@ -52,6 +51,12 @@ nav #icon{
         display: block;
         float:right;
         margin:5px 10px;
+    }
+    .navbar{
+        width:100%;
+    }
+    footer{
+        width:100%;
     }
     nav ul{
         position: fixed;
