@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+.navbar{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    margin-bottom: 80px;
+    box-shadow: 0 2px 10px white;
+}
+.navbar h1{
+    color: white;
+    display: inline;
+    font-size: 40px;
+    margin:25px 0px 0px 10px;
+}
+nav ul{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
+nav ul li{
+    list-style: none;
+    margin:5px 10px;
+    font-size: large;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 20px white;
+    border-radius: 5px;
+}
+nav #icon{
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 909px){
+    nav #icon{
+        display: block;
+        float:right;
+        margin:5px 10px;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0px;
+        left: -100%;
+        text-align: center;
+        background-color: rgb(65, 61, 58);
+        display: block;
+        margin: 50px 0px;
+        transition: all .5s;
+    }
+    nav ul li{
+        margin: 20px 0px;
+    }
+    nav ul.show{
+        left: 0;
+    }
+}
+.intro{
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+.intro h1,h3{
+    display: inline;
+    margin: 20px 250px;  
+}
+.text{
+    font-size: 5em;
+    letter-spacing: 10px;
+    width: 100%;
+    color: blue;
+    white-space: nowrap;
+    border-right: 5px solid rgb(20, 20, 20);
+    overflow: hidden;
+    animation: typing 3s steps(23), cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+@keyframes typing {
+    from { width: 0;}
+}
+.intro h2{
+    color: cyan;
+}
+.intro p{
+    text-align: justify;
+    margin: 0px 20px;
+    letter-spacing: 1px;
+}
+.intro img{
+    width: 30vw;
+    float: right;
+    display: inline;
+    margin: 0px 30px;
+    box-shadow: 0 0 20px white;
+    
+}
+footer{
+    background: black;
+    color: white;
+    margin-top: 20%;
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 2px 20px white;
+}
+footer a i{
+    margin: 20px;
+    padding: 10px;
+}
+footer a i:hover{
+    box-shadow: 0 0 10px white;
+    border-radius: 360px;
+}
+.num{
+    padding: 20px;
+    text-align: center;
+}
+button{
+    margin: 0px 150px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+footer p{
+    margin: 5px 0px;
+}
+footer p i{
+    padding: 3px;
+    box-shadow: 0 0 3px white;
+}
+.submenu{
+    display: none;
+}
+#sk:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+#sk:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+#sk:hover .submenu ul li{
+    width: 80px;
+    padding: 10px;
+    border-bottom: 1px dotted red;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+#sk:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.skill h1{
+    text-align: center;
+    margin: 20vh 40vw 0px 40vw;
+    padding: 5px 20px;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+
+}
+.skill img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+    margin: 40px 30px;
+}
+.crt h1{
+    text-align: center;
+    margin: 100px 40vw 30px 40vw;
+    padding: 5px 20px;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+
+}
+.container img{
+    width: 100%;
+    height: 85vh;
+    box-shadow: 0 0 20px white;
+
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:blue;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+.edu h1{
+    text-align: center;
+    margin: 50px 200px;
+    padding: 5px 20px;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+
+}
+.edu{
+    margin: 0px 300px;
+}
+.edu h2{
+    font-size: xx-large;
+    color: #fff;
+    line-height: 50px;
+    display: inline;
+}
+#first{
+    font-size: x-large;
+    line-height: 20px;
+}
+.edu p{
+    color: #fff;
+    line-height: 20px;
+}
+.edu img{
+    width: 200px;
+    height: 140px;
+    float: right;
+    display: inline-block;
+    box-shadow: 0 0 10px white;
+
+}
+.arr{
+    margin: 50px 300px;
+    width: 100px;
+    height: 100px;
+}
+.arr img{
+    width: 100px;
+    height: 100px;
+    box-shadow: none;
+}
