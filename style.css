@@ -47,7 +47,7 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
-@media(max-width: 320px){
+@media(max-width: 480px){
     nav #icon{
         display: block;
         float:right;
