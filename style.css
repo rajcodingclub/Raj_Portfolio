@@ -12,6 +12,8 @@ body{
     width: 100%;
     margin-bottom: 80px;
     box-shadow: 0 2px 10px white;
+    position:sticky;
+    top:0;
 }
 .navbar h1{
     color: white;
