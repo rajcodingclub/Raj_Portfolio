@@ -49,7 +49,7 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
-@media(max-width: 480px){
+@media(max-width: 925px){
     nav #icon{
         display: block;
         float:right;
@@ -73,6 +73,8 @@ nav #icon{
     nav ul.show{
         left: 0;
     }
+}
+    @media(max-width: 480px){
     .navbar h1{
         font-size: 20px;
         line-height: 50px;
