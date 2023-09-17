@@ -55,6 +55,10 @@ nav #icon{
         float:right;
         margin:5px 10px;
     }
+    .navbar{
+        position: sticky;
+        top: 0;
+    }
     nav ul{
         position: fixed;
         width: 40%;
