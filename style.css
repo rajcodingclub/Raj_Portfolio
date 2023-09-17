@@ -70,6 +70,9 @@ nav #icon{
     nav ul li{
         margin: 20px 0px;
     }
+    nav ul.show~ #icon i:before{
+        content: "\f00d";
+    }
     nav ul.show{
         left: 0;
     }
