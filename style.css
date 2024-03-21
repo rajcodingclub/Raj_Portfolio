@@ -119,6 +119,10 @@ nav #icon{
     #btn1{
         margin-bottom: 20px;
     }
+    .skill{
+         width:90%;
+         margin: auto;
+    }
 }
 .intro{
     width: 100%;
@@ -207,8 +211,7 @@ footer p i{
     box-shadow: 0 0 3px white;
 }
 .skill{
-     width:90%;
-    margin: auto;
+    margin:100px 0px;
 }
 .skill h1{
     text-align: center;
