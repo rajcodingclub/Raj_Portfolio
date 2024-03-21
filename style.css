@@ -6,19 +6,21 @@
 body{
     background-color: rgb(20, 20, 20);
 }
+
 .navbar{
     background-color: black;
     height: 10vh;
     width: 100%;
     margin-bottom: 80px;
     box-shadow: 0 2px 10px white;
+    z-index: 2;
     position:sticky;
     top:0;
 }
 .navbar h1{
     color: white;
     display: inline;
-    font-size: 40px;
+    font-size: 35px;
     margin:25px 0px 0px 10px;
 }
 nav ul{
@@ -100,21 +102,27 @@ nav #icon{
         letter-spacing: normal;
         margin: 0;
     }
-    .skill h1{
-        color: salmon;
-        background-color: none;
-        margin: 0;
-    }
-    .crt h1{
-        color: salmon;
-        background-color: none;
+    .edu img{
+        margin-bottom: 20px;
     }
     .edu h1{
-        color: salmon;
-        margin: 0;
+        font-size: x-large;
+        width: 10px;
+        margin: 0px;
+    }
+    button{
+        padding: 5px;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 10px;   
+    }
+    #btn1{
+        margin-bottom: 20px;
     }
 }
 .intro{
+    width: 100%;
+    margin: auto;
     color: white;
     display: inline-block;
     text-align: center;
@@ -157,6 +165,8 @@ nav #icon{
     
 }
 footer{
+    width: 100%;
+    margin: auto;
     background: black;
     color: white;
     margin-top: 20%;
@@ -196,10 +206,14 @@ footer p i{
     padding: 3px;
     box-shadow: 0 0 3px white;
 }
+.skill{
+    margin: 100px 0px;
+}
 .skill h1{
     text-align: center;
-    margin: 20vh 40vw 0px 40vw;
-    padding: 5px 2%;
+    width:200px;
+    margin: auto;
+    padding: 5px 10px;
     background-color: white;
     box-shadow: 0 0 10px white;
 
@@ -209,18 +223,20 @@ footer p i{
     height: 15vw;
     background-color: white;
     box-shadow: 0 0 10px white;
-    margin: 40px 30px;
+    margin: 30px 20px;
 }
 .crt h1{
     text-align: center;
-    margin: 100px 40vw 30px 40vw;
-    padding: 5px 20px;
+    width:250px;
+    margin: auto;
+    padding: 5px 10px;
     background-color: white;
     box-shadow: 0 0 10px white;
 
 }
 .container img{
     width: 100%;
+    margin: 50px 0px;
     object-fit: cover;
     box-shadow: 0 0 20px white;
 
@@ -240,14 +256,17 @@ footer p i{
 }
 .edu h1{
     text-align: center;
-    margin: 50px 15%;
-    padding: 5px 2%;
+    width: 200px;
+    margin:auto;
+    padding: 5px 10px;
+    margin-bottom: 50px;
     background-color: white;
     box-shadow: 0 0 10px white;
 
 }
 .edu{
-    margin: 0px 25%;
+    width: 50%;
+    margin: auto;
 }
 .edu h2{
     font-size: 2rem;
@@ -272,7 +291,7 @@ footer p i{
 
 }
 .arr{
-    margin: 50px 25%;
+    margin: auto;
     width: 100px;
     height: 100px;
 }
