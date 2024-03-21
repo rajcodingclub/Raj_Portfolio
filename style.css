@@ -111,6 +111,7 @@ nav #icon{
         margin: 0px;
     }
     button{
+        margin: 0px 20px;
         padding: 5px;
         width: 100px;
         border-radius: 10px;
@@ -203,6 +204,9 @@ button a{
     text-decoration: none;
     color: white;
 }
+#btn2{
+    margin-bottom:70px;
+}
 footer p{
     margin: 5px 0px;
 }
@@ -211,7 +215,7 @@ footer p i{
     box-shadow: 0 0 3px white;
 }
 .skill{
-    margin:100px 0px;
+    margin:auto;
 }
 .skill h1{
     text-align: center;
