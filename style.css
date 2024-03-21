@@ -233,6 +233,9 @@ footer p i{
     box-shadow: 0 0 10px white;
     margin: 30px 20px;
 }
+ .crt{
+     margin:100px 0px;
+ }
 .crt h1{
     text-align: center;
     width:250px;
