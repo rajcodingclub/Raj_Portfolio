@@ -207,7 +207,8 @@ footer p i{
     box-shadow: 0 0 3px white;
 }
 .skill{
-    margin: 100px 0px;
+     width:90%;
+    margin: auto;
 }
 .skill h1{
     text-align: center;
